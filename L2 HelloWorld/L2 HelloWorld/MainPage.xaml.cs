@@ -26,5 +26,10 @@ namespace L2_HelloWorld
         {
             this.InitializeComponent();
         }
+
+    private void clickMeButton_Click(object sender, RoutedEventArgs e)
+    {
+      resultTextBlock.Text = "Hello World";
     }
+  }
 }
