@@ -26,5 +26,10 @@ namespace L4_WhatIsXAML
         {
             this.InitializeComponent();
         }
+
+    private void ClickMeButton_Click(object sender, RoutedEventArgs e)
+    {
+      MessageTextBlock.Text = "Hello World";
     }
+  }
 }
