@@ -8,9 +8,5 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button>
-            <TextBlock>Hi</TextBlock>
-            <Image Source="Assets/Square44x44Logo.scale-200.png"/>
-        </Button>
     </Grid>
 </Page>
