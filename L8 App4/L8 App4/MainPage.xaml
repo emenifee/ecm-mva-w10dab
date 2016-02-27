@@ -19,6 +19,7 @@
         </Grid.RowDefinitions>
         <!-- Grid.Row is an attached property, allows setting a value to a
              property which is not defined by a given class. -->
+        <!-- Rectangle/Image controlls assume default width/height of 100% -->
         <Rectangle Height="100" Fill="Beige" Grid.Row="0" />
         <Rectangle Grid.Row="1" Fill="SteelBlue"/>
     </Grid>
