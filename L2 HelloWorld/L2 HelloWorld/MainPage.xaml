@@ -8,8 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!-- Font sizes in xaml resolution based scaled independent units across windows 10, where as font settins in properties is traditional points (1/72 per inch)-->
+        <!-- props font size=12 == 16 units... -->
         <Button x:Name="clickMeButton" Content="Click This" HorizontalAlignment="Left" Margin="133,99,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="133,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-
+        <!-- props font size=12 == 16 units... -->
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="10,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="64" Width="325"/>
     </Grid>
 </Page>
