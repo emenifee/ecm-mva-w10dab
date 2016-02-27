@@ -29,7 +29,7 @@ namespace L4_WhatIsXAML
 
     private void ClickMeButton_Click(object sender, RoutedEventArgs e)
     {
-      MessageTextBlock.Text = "Hello World";
+      MessageTextBlock.Text = "What is XAML";
     }
   }
 }
