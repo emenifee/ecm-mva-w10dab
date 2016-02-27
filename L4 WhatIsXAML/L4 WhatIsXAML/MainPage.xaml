@@ -9,7 +9,7 @@
     Loaded="Page_Loaded">
 
     <Grid Name="LayoutGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!--
+        
         <Button
             Name="ClickMeButton"
             Content="Click Me"
@@ -20,7 +20,7 @@
             Background="Red"
             Width="200"
             Height="100" />
-        -->
+        
         <TextBlock x:Name="MessageTextBlock"
                    HorizontalAlignment="Left"
                    Margin="10,150,0,0"
