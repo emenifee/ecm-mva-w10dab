@@ -9,22 +9,16 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <!-- Auto persuades layout engine at runtime: Should be tall enough to handle all controlls added to this row. 
-                 i.e. if the tallest item inside is 100, it attempts to set the height to value of 100 (relative value)-->
             <!-- * : Star Sizing, attempts to use remaining available height.
-                 {\d+}* : portional share of availeble.-->
-            
+                 {\d+}* : portional share of availeble.-->            
             <!-- Total portions = 1 + 2 + 3 = 6, so relative amounts are 1/6, 2/6=1/3, and 3/6=1/2 of the available remaing space-->
             <RowDefinition Height="1*"/>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="3*"/>
-            
-            <!-- Can also specify exact pixel layuots with just {\d+} for absoulute -->
         </Grid.RowDefinitions>
         <!-- Grid.Row is an attached property, allows setting a value to a
              property which is not defined by a given class. -->
         <!-- Rectangle/Image controlls assume default width/height of 100% -->
-        <!-- <Rectangle Height="100" Fill="Beige" Grid.Row="0" /> -->
         <Rectangle Grid.Row="0" Fill="Red"/>
         <Rectangle Grid.Row="1" Fill="SteelBlue"/>
         <Rectangle Grid.Row="2" Fill="AntiqueWhite"/>
