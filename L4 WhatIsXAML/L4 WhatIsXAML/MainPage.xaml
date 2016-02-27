@@ -9,7 +9,7 @@
 
     <Grid Name="LayoutGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button
-            x:Name="ClickMeButton"
+            Name="ClickMeButton"
             Content="Click Me"
             HorizontalAlignment="Left"
             Margin="20,20,0,0"
@@ -22,7 +22,9 @@
                    HorizontalAlignment="Left"
                    Margin="10,150,0,0"
                    TextWrapping="Wrap"
-                   Text=""/>
+                   Text=""
+                   VerticalAlignment="Top"
+                   FontSize="48"/>
 
     </Grid>
 </Page>
