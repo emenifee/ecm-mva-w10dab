@@ -13,7 +13,7 @@
         <Button
             Name="ClickMeButton"
             Content="Click Me"
-            HorizontalAlignment="Lef"
+            HorizontalAlignment="Left"
             Margin="20,20,0,0"
             VerticalAlignment="Top"
             Click="ClickMeButton_Click"
