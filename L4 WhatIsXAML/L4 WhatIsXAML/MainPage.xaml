@@ -12,13 +12,22 @@
 
         <Button
             Name="ClickMeButton"
+            Content="ClickMe"
             HorizontalAlignment="Left"
             Margin="20,20,0,0"
             VerticalAlignment="Top"
             Click="ClickMeButton_Click"
-            Background="Red"
             Width="200"
-            Height="100" >Hello World</Button>
+            Height="100" >
+            <!-- Propery Element Syntax, define complex property values vs simple type converter-->
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+
+        </Button>
 
         <TextBlock x:Name="MessageTextBlock"
                    HorizontalAlignment="Left"
