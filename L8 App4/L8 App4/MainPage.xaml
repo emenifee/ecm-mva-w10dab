@@ -30,13 +30,15 @@
                    VerticalAlignment="Bottom"/>
 
         <!-- Margins push amount from given side (left, top, right, bottom) -->
+        <!-- Margins usually used to create small amount of fixed space between relative positioned components -->
+        <!-- Only need to include portion of margin wanted in clockwise side, others are set to 0 -->
         <Rectangle Fill="Yellow"
                    Height="100"
                    Width="100"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Top" 
                    Margin="100,100"
-                   />
+                   /> 
         <Rectangle Fill="White"
                    Height="100"
                    Width="100"
