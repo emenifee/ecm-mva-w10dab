@@ -9,9 +9,16 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
+            <!-- Auto persuades layout engine at runtime: Should be tall enough to handle all controlls added to this row. 
+                 i.e. if the tallest item inside is 100, it attempts to set the height to value of 100 (relative value)-->
             <RowDefinition Height="Auto"/>
+            <!-- * : Star Sizing, attempts to use remaining available height.
+                 {\d+}* : portional share of availeble.-->
             <RowDefinition Height="*"/>
+            <!-- Can also specify exact pixel layuots with just {\d+} for absoulute -->
         </Grid.RowDefinitions>
+        <!-- Grid.Row is an attached property, allows setting a value to a
+             property which is not defined by a given class. -->
         <Rectangle Height="100" Fill="Beige" Grid.Row="0" />
         <Rectangle Grid.Row="1" Fill="SteelBlue"/>
     </Grid>
