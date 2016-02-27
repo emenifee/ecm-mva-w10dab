@@ -26,7 +26,19 @@
                     <GradientStop Color="Red" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
-
+            <!-- Full version of XAML without VS auto, shortening/compacting 
+            
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="Red" Offset="1"/>
+                        </GradientStopCollection>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Button.Background>
+            -->
         </Button>
 
         <TextBlock x:Name="MessageTextBlock"
