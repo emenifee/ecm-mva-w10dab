@@ -9,18 +9,27 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <!-- * : Star Sizing, attempts to use remaining available height.
-                 {\d+}* : portional share of availeble.-->            
-            <!-- Total portions = 1 + 2 + 3 = 6, so relative amounts are 1/6, 2/6=1/3, and 3/6=1/2 of the available remaing space-->
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3*"/>
+            <!-- * : Star Sizing, attempts to use remaining available height. -->
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <!-- Grid.Row is an attached property, allows setting a value to a
-             property which is not defined by a given class. -->
-        <!-- Rectangle/Image controlls assume default width/height of 100% -->
-        <Rectangle Grid.Row="0" Fill="Red"/>
-        <Rectangle Grid.Row="1" Fill="SteelBlue"/>
-        <Rectangle Grid.Row="2" Fill="AntiqueWhite"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock>1</TextBlock> <!-- default grid row and col = 0 -->
+        <TextBlock Grid.Column="1">2</TextBlock> <!-- default row = 0-->
+        <TextBlock Grid.Column="2">3</TextBlock> <!-- default row = 0-->
+
+        <TextBlock Grid.Row="1">4</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1">5</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="2">6</TextBlock>
+
+        <TextBlock Grid.Row="2">7</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1">8</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="2">9</TextBlock>
+        
     </Grid>
 </Page>
