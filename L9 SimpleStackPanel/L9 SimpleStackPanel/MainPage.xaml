@@ -18,7 +18,7 @@
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Rectangle Width="100" Height="100" Fill="Red"/>
+                    <Rectangle Width="100" Height="100" Fill="Tomato"/>
                     <StackPanel Orientation="Vertical">
                         <Rectangle Width="100" Height="50" Fill="Beige"/>
                         <Rectangle Width="100" Height="50" Fill="Brown"/>
