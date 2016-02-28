@@ -19,6 +19,10 @@
             <TextBox/>
             <Button>Sixth</Button>
         </StackPanel>
+        <StackPanel Height="200">
+            <Rectangle Fill="Red" Height="100"/>
+        </StackPanel>
+
     </StackPanel>
 
 </Page>
