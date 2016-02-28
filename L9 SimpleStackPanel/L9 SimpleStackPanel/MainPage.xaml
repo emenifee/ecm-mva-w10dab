@@ -13,7 +13,7 @@
                 <StackPanel Orientation="Horizontal">
                     <Rectangle Width="100" Height="100" Fill="Azure"/>
                     <StackPanel Orientation="Vertical">
-                        <Rectangle Width="100" Height="50" Fill="RosyBrown"/>
+                        <Rectangle Width="100" Height="50" Fill="RosyBrown" d:IsLocked="True"/>
                         <Rectangle Width="100" Height="50" Fill="DarkCyan"/>
                     </StackPanel>
                 </StackPanel>
@@ -21,7 +21,7 @@
                     <Rectangle Width="100" Height="100" Fill="Tomato"/>
                     <StackPanel Orientation="Vertical">
                         <Rectangle Width="100" Height="50" Fill="BurlyWood"/>
-                        <Rectangle Width="100" Height="50" Fill="SaddleBrown"/>
+                        <Rectangle Width="100" Height="50" Fill="SaddleBrown" d:IsHidden="True"/>
                     </StackPanel>
                 </StackPanel>
             </StackPanel>
