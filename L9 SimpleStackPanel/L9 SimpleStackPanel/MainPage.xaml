@@ -6,23 +6,26 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <!-- StackPanel default Height is "Auto" -->
-    <StackPanel>
-        <StackPanel>
-            <TextBlock>First</TextBlock>
-            <TextBlock>Second</TextBlock>
-            <TextBlock>Third
-            </TextBlock>
+    <Grid Background="AntiqueWhite">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Rectangle Width="200" Height="200" Fill="Bisque"/>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="100" Height="100" Fill="Azure"/>
+                    <StackPanel Orientation="Vertical">
+                        <Rectangle Width="100" Height="50" Fill="RosyBrown"/>
+                        <Rectangle Width="100" Height="50" Fill="DarkCyan"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="100" Height="100" Fill="Red"/>
+                    <StackPanel Orientation="Vertical">
+                        <Rectangle Width="100" Height="50" Fill="Beige"/>
+                        <Rectangle Width="100" Height="50" Fill="Brown"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
         </StackPanel>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock>Fourth</TextBlock>
-            <TextBox/>
-            <Button>Sixth</Button>
-        </StackPanel>
-        <StackPanel Height="200">
-            <Rectangle Fill="Red" Height="100"/>
-        </StackPanel>
-
-    </StackPanel>
-
+        
+    </Grid>
 </Page>
