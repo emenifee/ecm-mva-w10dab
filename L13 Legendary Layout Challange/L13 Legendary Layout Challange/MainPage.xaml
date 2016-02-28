@@ -7,10 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     >
-    <!-- 
-    <Page.Resources>
-        <props:Resources x:Key="Resources"/>
-    </Page.Resources>-->
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="10,0,20,0">
         <TextBlock FontSize="48" Margin="10,20,0,0">Lorem Ipsum</TextBlock>
         <StackPanel Orientation="Horizontal">
