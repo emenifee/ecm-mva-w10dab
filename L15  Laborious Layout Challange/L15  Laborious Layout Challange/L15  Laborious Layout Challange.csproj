@@ -110,6 +110,9 @@
     <None Include="L15  Laborious Layout Challange_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\LoremIpsum.txt" />
+    <Content Include="Assets\UWP-015-Challenge.txt" />
+    <Content Include="Assets\UWP-015-Screenshot.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
