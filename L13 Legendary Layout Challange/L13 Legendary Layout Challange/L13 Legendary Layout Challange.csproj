@@ -110,6 +110,7 @@
     <None Include="L13 Legendary Layout Challange_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\LoremIpsum.txt" />
     <Content Include="Instructions.txt" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
