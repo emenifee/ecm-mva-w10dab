@@ -7,7 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>Second</TextBlock>
+            <TextBlock>Third
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>Fourth</TextBlock>
+            <TextBox/>
+            <Button>Sixth</Button>
+        </StackPanel>
+    </StackPanel>
 
-    </Grid>
 </Page>
