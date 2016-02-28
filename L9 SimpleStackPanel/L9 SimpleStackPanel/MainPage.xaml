@@ -7,25 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="AntiqueWhite">
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-            <Rectangle Width="200" Height="200" Fill="Bisque"/>
-            <StackPanel Orientation="Vertical">
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Width="100" Height="100" Fill="Azure"/>
-                    <StackPanel Orientation="Vertical">
-                        <Rectangle Width="100" Height="50" Fill="RosyBrown" d:IsLocked="True"/>
-                        <Rectangle Width="100" Height="50" Fill="DarkCyan"/>
-                    </StackPanel>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Width="100" Height="100" Fill="Tomato"/>
-                    <StackPanel Orientation="Vertical">
-                        <Rectangle Width="100" Height="50" Fill="BurlyWood"/>
-                        <Rectangle Width="100" Height="50" Fill="SaddleBrown" d:IsHidden="True"/>
-                    </StackPanel>
-                </StackPanel>
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>second</TextBlock>
+            <TextBlock>Third</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>Forth</TextBlock>
+                <TextBlock>Fifth</TextBlock>
+                <TextBlock>Sixth</TextBlock>
             </StackPanel>
         </StackPanel>
-        
+        <StackPanel Height="200" >
+            <Rectangle  Height="200" Fill="Red"/>
+        </StackPanel>
     </Grid>
 </Page>
